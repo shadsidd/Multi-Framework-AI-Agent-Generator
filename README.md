@@ -22,7 +22,7 @@ A powerful tool for generating AI agents using different frameworks including La
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/multi-framework-ai-agent-generator.git
+git clone https://github.com/shadsidd/multi-framework-ai-agent-generator.git
 cd multi-framework-ai-agent-generator
 ```
 
