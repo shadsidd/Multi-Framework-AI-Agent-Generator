@@ -1,30 +1,22 @@
 # Multi-Framework AI Agent Generator
 
-A Streamlit-based web application that generates AI agent systems using different frameworks (LangGraph, CrewAI, and AutoGen) based on user prompts.
+A powerful tool for generating AI agents using different frameworks including LangGraph, CrewAI, and AutoGen. This application provides a user-friendly interface to create and test AI agents with various LLM providers.
 
 ## Features
 
-- **Multiple Framework Support**: Generate agent systems using:
-  - LangGraph (for stateful workflows)
-  - CrewAI (for collaborative teams)
-  - AutoGen (for conversational agents)
+- Support for multiple AI frameworks:
+  - LangGraph: For stateful workflows and complex decision trees
+  - CrewAI: For collaborative agent teams with specialized roles
+  - AutoGen: For conversational agents and chat-based systems
+- Multiple LLM provider support:
+- Interactive Streamlit interface
+- Code validation and testing
+- Quick-start templates for common use cases
 
-- **LLM Provider Integration**:
-  - Google Gemini
-  - OpenAI
-  - Anthropic (coming soon)
+## Prerequisites
 
-- **Quick Start Templates**: Pre-built templates for common use cases:
-  - Customer Support Workflows
-  - Document Processing Pipelines
-  - Research Teams
-  - Marketing Crews
-  - Code Review Systems
-  - Data Analysis Teams
-
-- **Code Validation**: Built-in validation to ensure generated code follows framework best practices
-- **Dependency Management**: Automatic generation of requirements.txt
-- **Code Testing**: Basic syntax validation for generated code
+- Python 3.8 or higher
+- API keys for your chosen LLM provider(s)
 
 ## Installation
 
@@ -34,17 +26,19 @@ git clone https://github.com/yourusername/multi-framework-ai-agent-generator.git
 cd multi-framework-ai-agent-generator
 ```
 
-2. Install dependencies:
+2. Install the required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Run the application:
+## Usage
+
+1. Run the application:
 ```bash
 streamlit run mulitagent-framework.py
 ```
 
-## Usage
+2. Open your web browser and navigate to the provided local URL (typically http://localhost:8501)
 
 1. Select your preferred framework (LangGraph, CrewAI, or AutoGen)
 2. Choose an LLM provider and model
@@ -57,13 +51,22 @@ streamlit run mulitagent-framework.py
 
 ## Requirements
 
-- Python 3.8+
-- Streamlit
-- OpenAI
-- Google Generative AI
-- LangGraph
-- CrewAI
-- AutoGen
+## Supported Frameworks
+
+### LangGraph
+- Best for stateful workflows and complex decision trees
+- Uses StateGraph for workflow management
+- Includes proper state management and error handling
+
+### CrewAI
+- Ideal for collaborative agent teams
+- Supports role-based task delegation
+- Includes built-in collaboration mechanisms
+
+### AutoGen
+- Perfect for conversational agents
+- Supports multiple agent types
+- Includes chat-based workflows
 
 ## Contributing
 
