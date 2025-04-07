@@ -13,6 +13,12 @@ A powerful tool for generating AI agents using different frameworks including La
 - Code validation and testing
 - Quick-start templates for common use cases
 
+##Output
+1. ![1743625241990](https://github.com/user-attachments/assets/32aa7b0e-36be-480e-b5d9-2329b4274474)
+2. ![1743625242186](https://github.com/user-attachments/assets/f09ea662-0527-4955-a304-1b0569da8146)
+3.![1743625242710](https://github.com/user-attachments/assets/edce0b6a-6e48-477a-8626-6b2df564c306)
+4.![1743625242343](https://github.com/user-attachments/assets/34ad2b31-dccf-4977-996c-b9760e08cc0a)
+
 ## Prerequisites
 
 - Python 3.8 or higher
